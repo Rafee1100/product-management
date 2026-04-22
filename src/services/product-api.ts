@@ -33,7 +33,7 @@ export const api = {
   async fetchProducts(
     params: FetchProductsParams,
   ): Promise<PaginatedResponse<Product>> {
-    const { page = 1, limit = 15, category = null, search = "" } = params;
+    const { page = 1, limit = 16, category = null, search = "" } = params;
 
     await generateDelay(300, 900);
 
