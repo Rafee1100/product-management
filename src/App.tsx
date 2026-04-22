@@ -1,9 +1,15 @@
+import { QueryClientProvider } from "@tanstack/react-query";
+import { FavouritesProvider } from "./features/favourites";
+import Home from "./pages/Home";
+import { queryClient } from "./lib/queryClient";
 
 function App() {
   return (
-    <>
-      <h1>Product Management</h1>
-    </>
+    <QueryClientProvider client={queryClient}>
+      <FavouritesProvider>
+        <Home />
+      </FavouritesProvider>
+    </QueryClientProvider>
   );
 }
 
