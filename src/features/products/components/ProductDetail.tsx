@@ -6,7 +6,7 @@ type Props = { product: Product | null; onClose: () => void };
 
 const ProductDetail = ({ product, onClose }: Props) => {
   const { isFavourite, toggle } = useFavourites();
-  if (!product) return;
+  if (!product) return <div className="text-center">Product not found</div>;
   const favouriteProduct = isFavourite(product.id);
   return (
     <div

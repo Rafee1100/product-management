@@ -10,8 +10,8 @@ function readFromStorage<T>(key: string, fallback: T): T {
 }
 
 export function useLocalStorage<T>(key: string, initialValue: T) {
-  const initalValueRef = useRef(initialValue);
-  initalValueRef.current = initialValue;
+  const initialValueRef = useRef(initialValue);
+  initialValueRef.current = initialValue;
 
   const [storedValue, setStoredValue] = useState<T>(() =>
     readFromStorage(key, initialValue),
@@ -35,7 +35,7 @@ export function useLocalStorage<T>(key: string, initialValue: T) {
   useEffect(() => {
     const handleStorage = (event: StorageEvent) => {
       if (event.key !== key || event.storageArea !== localStorage) return;
-      setStoredValue(readFromStorage(key, initalValueRef.current));
+      setStoredValue(readFromStorage(key, initialValueRef.current));
     };
     window.addEventListener("storage", handleStorage);
     return () => {

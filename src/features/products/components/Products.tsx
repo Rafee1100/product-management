@@ -5,15 +5,23 @@ import ProductCard from "./ProductCard";
 import { Pagination } from "../../../components/ui/Pagination";
 import { useFavourites } from "../../favourites";
 import { QueryStatus } from "../../../constants/statuses";
+import { NoProductsFound } from "./NoProductsFound";
 
 type Props = {
   query: UseQueryResult<PaginatedResponse<Product>, Error>;
   page: number;
   onPageChange: (page: number) => void;
   onOpenProduct: (product: Product) => void;
+  onClearFilters: () => void;
 };
 
-const Products = ({ query, page, onPageChange, onOpenProduct }: Props) => {
+const Products = ({
+  query,
+  page,
+  onPageChange,
+  onOpenProduct,
+  onClearFilters,
+}: Props) => {
   const { isFavourite, toggle } = useFavourites();
   const { data, status } = query;
   const products = data?.data ?? [];
@@ -22,6 +30,10 @@ const Products = ({ query, page, onPageChange, onOpenProduct }: Props) => {
 
   if (status === QueryStatus.PENDING) {
     return <LoadingSkeleton />;
+  }
+
+  if (products.length === 0) {
+    return <NoProductsFound onClearFilters={onClearFilters} />;
   }
   return (
     <>
