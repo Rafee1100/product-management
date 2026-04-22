@@ -15,7 +15,7 @@ const SearchBar = ({ value, onChange }: Props) => {
         onChange={(e) => onChange(e.target.value)}
         placeholder="Search products..."
         aria-label="Search products"
-        className="w-full rounded-lg border border-slate-200 bg-white py-2 pl-9 pr-9 text-sm text-slate-900 placeholder:text-slate-400 focus:border-orange-500 focus:ring-2 focus:ring-orange-100 focus:outline-none"
+        className="w-full rounded-lg border border-slate-200 bg-white py-2 pl-9 pr-9 text-sm text-slate-900 placeholder:text-slate-400 focus:border-orange-500 focus:ring-2 focus:ring-orange-100 focus:outline-none [&::-webkit-search-cancel-button]:appearance-none"
       />
       {value && (
         <button

@@ -39,7 +39,7 @@ export function Pagination({
               onClick={() => onPageChange(p)}
               aria-current={p === page ? "page" : undefined}
               className={
-                "min-w-[2rem] rounded-md px-2 py-1 font-medium transition " +
+                "min-w-8 rounded-md px-2 py-1 font-medium transition " +
                 (p === page
                   ? "bg-orange-600 text-white shadow-sm"
                   : "text-slate-700 hover:bg-slate-100")
