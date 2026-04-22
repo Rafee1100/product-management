@@ -1,8 +1,7 @@
-import React from "react";
-import type { Category, SortOption } from "../../../types/product.type";
-import { CATEGORIES } from "../../../constants/products";
-import SearchBar from "../../../components/ui/SearchBar";
 import Filter from "../../../components/ui/Filter";
+import SearchBar from "../../../components/ui/SearchBar";
+import { CATEGORIES } from "../../../constants/products";
+import type { Category, SortOption } from "../../../types/product.type";
 
 type Props = {
   search: string;
