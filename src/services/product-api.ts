@@ -1,4 +1,5 @@
 import mockProducts from "../../data/products.json";
+import { PAGE_SIZE } from "../constants/products";
 import type {
   Category,
   FetchProductsParams,
@@ -33,7 +34,12 @@ export const api = {
   async fetchProducts(
     params: FetchProductsParams,
   ): Promise<PaginatedResponse<Product>> {
-    const { page = 1, limit = 16, category = null, search = "" } = params;
+    const {
+      page = 1,
+      limit = PAGE_SIZE,
+      category = null,
+      search = "",
+    } = params;
 
     await generateDelay(300, 900);
 
