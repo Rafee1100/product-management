@@ -16,7 +16,6 @@ const Home = () => {
     limit: PAGE_SIZE,
     search: filters.debouncedSearch,
     category: filters.category,
-    sort: filters.sort,
   });
 
   const [panelOpen, setPanelOpen] = useState(false);
@@ -31,14 +30,13 @@ const Home = () => {
           onSearchChange={filters.setSearch}
           category={filters.category}
           onCategoryChange={filters.setCategory}
-          sort={filters.sort}
-          onSortChange={filters.setSort}
         />
         <Products
           query={query}
           page={filters.page}
           onPageChange={filters.setPage}
           onOpenProduct={setOpenProduct}
+          onClearFilters={filters.clearFilters}
         />
       </div>
       <FavouritePanel

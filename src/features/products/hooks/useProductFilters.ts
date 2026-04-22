@@ -1,25 +1,22 @@
 import { useReducer } from "react";
-import type { Category, SortOption } from "../../../types/product.type";
+import type { Category } from "../../../types/product.type";
 import { useDebounce } from "../../../hooks/useDebounce";
 
 type ProductFilterState = {
   search: string;
   category: Category | null;
-  sort: SortOption;
   page: number;
 };
 
 type FilterAction =
   | { type: "searchChanged"; value: string }
   | { type: "categorySelected"; value: Category | null }
-  | { type: "sortSelected"; value: SortOption }
   | { type: "pageChanged"; value: number }
   | { type: "filtersCleared" };
 
 const defaultFilter: ProductFilterState = {
   search: "",
   category: null,
-  sort: "default",
   page: 1,
 };
 
@@ -32,8 +29,6 @@ function filterReducer(
       return { ...state, search: action.value, page: 1 };
     case "categorySelected":
       return { ...state, category: action.value, page: 1 };
-    case "sortSelected":
-      return { ...state, sort: action.value };
     case "pageChanged":
       return { ...state, page: action.value };
     case "filtersCleared":
@@ -51,8 +46,6 @@ export function useProductFilters() {
     dispatch({ type: "searchChanged", value });
   const setCategory = (value: Category | null) =>
     dispatch({ type: "categorySelected", value });
-  const setSort = (value: SortOption) =>
-    dispatch({ type: "sortSelected", value });
   const setPage = (value: number) => dispatch({ type: "pageChanged", value });
   const clearFilters = () => dispatch({ type: "filtersCleared" });
 
@@ -61,7 +54,6 @@ export function useProductFilters() {
     debouncedSearch,
     setSearch,
     setCategory,
-    setSort,
     setPage,
     clearFilters,
   };

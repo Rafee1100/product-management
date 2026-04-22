@@ -1,15 +1,13 @@
 import Filter from "../../../components/ui/Filter";
 import SearchBar from "../../../components/ui/SearchBar";
 import { CATEGORIES } from "../../../constants/products";
-import type { Category, SortOption } from "../../../types/product.type";
+import type { Category } from "../../../types/product.type";
 
 type Props = {
   search: string;
   onSearchChange: (value: string) => void;
   category: Category | null;
   onCategoryChange: (category: Category | null) => void;
-  sort: SortOption;
-  onSortChange: (sort: SortOption) => void;
 };
 
 const categoryOptions = CATEGORIES.map((c) => ({ value: c, label: c }));

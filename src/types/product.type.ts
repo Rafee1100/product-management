@@ -1,12 +1,5 @@
 export type Category = "Electronics" | "Fashion" | "Home" | "Books" | "Sports";
 
-export type SortOption =
-  | "default"
-  | "name-asc"
-  | "price-asc"
-  | "price-desc"
-  | "rating-desc";
-
 export interface Product {
   id: string;
   title: string;
@@ -30,5 +23,4 @@ export interface FetchProductsParams {
   limit?: number;
   category?: Category | null;
   search?: string;
-  sort?: SortOption;
 }
