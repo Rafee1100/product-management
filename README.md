@@ -1,6 +1,6 @@
 # Product Management Dashboard
 
-A React + TypeScript dashboard for browsing, searching, filtering, and favouriting products. Built as a submission for the frontend coding challenge described in [CHALLENGE.md](CHALLENGE.md).
+A React + TypeScript project for browsing, searching, filtering, and favouriting products. Built as a submission for the frontend coding challenge described in [CHALLENGE.md](CHALLENGE.md).
 
 **Tech stack:** React 19 · TypeScript · Vite · Tailwind CSS · TanStack Query · lucide-react
 
@@ -42,7 +42,7 @@ pnpm dev
 
 ## Data Source
 
-Per Challenge §2 **Option B**, product data lives in a local JSON file at [`data/products.json`](data/products.json). A thin service layer ([`src/services/product-api.ts`](src/services/product-api.ts)) wraps it in an async, paginated interface and simulates 300–900ms of network latency, so the UI consumes it exactly as it would a real HTTP API. Swapping to a real backend later would be a single-file change.
+As per Challenge  **Option B**, product data lives in a local JSON file at [`data/products.json`](data/products.json). A thin service layer ([`src/services/product-api.ts`](src/services/product-api.ts)) wraps it in an async, paginated interface and simulates 300–900ms of network latency, so the UI consumes it exactly as it would a real HTTP API. Swapping to a real backend later would be a single-file change.
 
 ---
 
@@ -53,13 +53,13 @@ Per Challenge §2 **Option B**, product data lives in a local JSON file at [`dat
 ```
 src/
 ├── components/ui/        # Design-system primitives (SearchBar, Filter, Dropdown, Pagination, LoadingSkeleton)
-├── constants/            # Categories, page size, query-status enum
+├── constants/            # Constant values across the system
 ├── features/
 │   ├── products/         # Product list, card, detail modal, filters, hooks
 │   └── favourites/       # Favourites context, provider, side panel, item row
 ├── hooks/                # Cross-cutting hooks (useDebounce, useLocalStorage)
 ├── lib/                  # Third-party client config (React Query)
-├── pages/                # Route-level composition (Home, Navbar)
+├── pages/                # Route-level composition layout (Home, Navbar)
 ├── services/             # Data-access layer (mock API)
 └── types/                # Shared TypeScript types
 data/
@@ -70,7 +70,7 @@ data/
 
 - **Feature-based folders.** Each feature (`products`, `favourites`) owns its components, hooks, and (where relevant) context. This keeps module surface area small and makes future extraction into a separate package straightforward.
 
-- **TanStack Query for data fetching.** Provides caching, request deduping, and — importantly here — `keepPreviousData`, which prevents the grid from flashing blank while paginating. Configured centrally in [`src/lib/queryClient.ts`](src/lib/queryClient.ts).
+- **TanStack Query for data fetching.** Provides caching, request deduping, and a single place to manage loading / error / success states for the products list. Configured centrally in [`src/lib/queryClient.ts`](src/lib/queryClient.ts).
 
 - **`useReducer` for filter state.** Search, category, and page interact (changing the search resets the page to 1, clearing filters resets all three), so a single reducer with discriminated-union actions is cleaner than orchestrating multiple `useState`s. See [`useProductFilters`](src/features/products/hooks/useProductFilters.ts).
 
@@ -80,8 +80,6 @@ data/
 
 - **Responsive design.** Filter renders as pills on `sm+` and a dropdown on mobile. The favourites panel is a bottom sheet on mobile and a side drawer on desktop. The product grid steps from 1 → 4 columns as the viewport widens.
 
-- **Accessibility.** ARIA labels on icon buttons, `role="dialog"` + `aria-modal` on overlays, `aria-pressed` on filter pills, `aria-current="page"` on pagination, keyboard-activatable product cards (`Enter`), and visible focus rings throughout.
-
 ---
 
 ## Notes
@@ -89,3 +87,17 @@ data/
 - The mock API adds artificial latency so loading states are visible during development.
 - Favourites are keyed by product id; toggling from any surface (card, detail modal, panel) stays consistent.
 - Pagination falls back to a single page when a filter narrows the dataset.
+
+---
+
+## What I'd add with more time
+
+- **Tests.** I pulled in `vitest` but didn't get to write any. The reducer in `useProductFilters`, `filterProducts` in the service, and the `useDebounce` / `useLocalStorage` hooks are the obvious first targets. After that, a small end-to-end flow: search something, favourite it, refresh the page, confirm it's still there.
+
+- **Error state.** Loading and empty results are covered, but a failed fetch isn't. If the request blew up today the UI would just sit there quietly. `QueryStatus.ERROR` is already sitting in [`src/constants/statuses.ts`](src/constants/statuses.ts) waiting to be used; an error card with a retry button is a quick fix.
+
+- **Filters in the URL.** Right now the filter state only lives in memory, so you can't share a filtered view and the back button doesn't undo a filter change. Putting `search`, `category`, and `page` into query params would fix both.
+
+- **Product detail as a real route.** The detail view is a modal today, which means refreshing closes it and there's no way to link someone to a specific product. Moving it to `/products/:id` would make it refresh-safe and shareable.
+
+- **Smarter pagination.** Fine for this dataset, but the control renders every page number as a button. Once the dataset is large enough, it'd need a windowed view (`1 … 5 6 7 … 42`) or just an infinite scroll.

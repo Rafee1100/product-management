@@ -14,18 +14,10 @@ const ProductCard = ({
   onToggleFavorite,
   onOpen,
 }: Props) => {
-  const handleKeyDown = (e: React.KeyboardEvent<HTMLDivElement>) => {
-    if (e.key === "Enter") {
-      onOpen(product);
-    }
-  };
 
   return (
     <div
-      role="button"
-      tabIndex={0}
       onClick={() => onOpen(product)}
-      onKeyDown={handleKeyDown}
       className="group relative flex cursor-pointer flex-col overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm transition hover:shadow-md"
     >
       <div className="relative aspect-4/3 overflow-hidden bg-slate-100">
