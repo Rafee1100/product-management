@@ -1,0 +1,1352 @@
+[
+  {
+    "id": "p-019",
+    "title": "The Quiet Garden (Novel)",
+    "description": "A contemporary novel about memory, family, and second chances.",
+    "image": "https://picsum.photos/seed/pmd-novel/640/480",
+    "price": 16.99,
+    "category": "Books",
+    "rating": 4.7
+  },
+  {
+    "id": "p-032",
+    "title": "Mechanical Gaming Keyboard",
+    "description": "Hot-swappable mechanical keyboard with RGB lighting and tactile switches.",
+    "image": "https://picsum.photos/seed/pmd-keyboard/640/480",
+    "price": 149.0,
+    "category": "Electronics",
+    "rating": 4.6
+  },
+  {
+    "id": "p-007",
+    "title": "Classic Denim Jacket",
+    "description": "Mid-wash denim jacket with a timeless straight fit.",
+    "image": "https://picsum.photos/seed/pmd-jacket/640/480",
+    "price": 89.0,
+    "category": "Fashion",
+    "rating": 4.2
+  },
+  {
+    "id": "p-044",
+    "title": "The Hidden Forest (Mystery)",
+    "description": "A slow-burn mystery set in a remote mountain town with a missing hiker.",
+    "image": "https://picsum.photos/seed/pmd-mystery/640/480",
+    "price": 15.99,
+    "category": "Books",
+    "rating": 4.4
+  },
+  {
+    "id": "p-025",
+    "title": "Non-Slip Yoga Mat",
+    "description": "6mm eco-friendly TPE yoga mat with alignment lines.",
+    "image": "https://picsum.photos/seed/pmd-yogamat/640/480",
+    "price": 34.99,
+    "category": "Sports",
+    "rating": 4.5
+  },
+  {
+    "id": "p-015",
+    "title": "Espresso Coffee Maker",
+    "description": "15-bar pump espresso machine with steam wand.",
+    "image": "https://picsum.photos/seed/pmd-coffee/640/480",
+    "price": 219.0,
+    "category": "Home",
+    "rating": 4.6
+  },
+  {
+    "id": "p-001",
+    "title": "Wireless Noise-Cancelling Headphones",
+    "description": "Over-ear headphones with active noise cancellation and 30-hour battery life.",
+    "image": "https://picsum.photos/seed/pmd-headphones/640/480",
+    "price": 249.99,
+    "category": "Electronics",
+    "rating": 4.6
+  },
+  {
+    "id": "p-038",
+    "title": "Pure Silk Necktie",
+    "description": "Hand-finished silk tie in a subtle diagonal weave.",
+    "image": "https://picsum.photos/seed/pmd-tie/640/480",
+    "price": 59.0,
+    "category": "Fashion",
+    "rating": 4.2
+  },
+  {
+    "id": "p-042",
+    "title": "HEPA Air Purifier",
+    "description": "True HEPA filter for rooms up to 400 sq ft with quiet night mode.",
+    "image": "https://picsum.photos/seed/pmd-purifier/640/480",
+    "price": 229.0,
+    "category": "Home",
+    "rating": 4.4
+  },
+  {
+    "id": "p-028",
+    "title": "Graphite Tennis Racket",
+    "description": "Intermediate tennis racket with a balanced graphite frame.",
+    "image": "https://picsum.photos/seed/pmd-tennis/640/480",
+    "price": 99.0,
+    "category": "Sports",
+    "rating": 4.3
+  },
+  {
+    "id": "p-005",
+    "title": "Portable Bluetooth Speaker",
+    "description": "Waterproof speaker with 12 hours of playback and rich bass.",
+    "image": "https://picsum.photos/seed/pmd-speaker/640/480",
+    "price": 79.0,
+    "category": "Electronics",
+    "rating": 4.4
+  },
+  {
+    "id": "p-034",
+    "title": "E-Reader 7\"",
+    "description": "Glare-free e-ink reader with adjustable warm light and weeks of battery.",
+    "image": "https://picsum.photos/seed/pmd-ereader/640/480",
+    "price": 139.0,
+    "category": "Electronics",
+    "rating": 4.5
+  },
+  {
+    "id": "p-017",
+    "title": "Hand-Woven Area Rug",
+    "description": "Natural fiber rug, 5x7 ft, in a neutral palette.",
+    "image": "https://picsum.photos/seed/pmd-rug/640/480",
+    "price": 179.0,
+    "category": "Home",
+    "rating": 4.4
+  },
+  {
+    "id": "p-046",
+    "title": "Cities Through Time (History)",
+    "description": "An illustrated history of ten cities from antiquity to the modern day.",
+    "image": "https://picsum.photos/seed/pmd-history/640/480",
+    "price": 22.0,
+    "category": "Books",
+    "rating": 4.2
+  },
+  {
+    "id": "p-022",
+    "title": "Edge of the Sky (Sci-Fi)",
+    "description": "Near-future science fiction about first contact and what comes after.",
+    "image": "https://picsum.photos/seed/pmd-scifi/640/480",
+    "price": 14.99,
+    "category": "Books",
+    "rating": 4.5
+  },
+  {
+    "id": "p-036",
+    "title": "Cashmere Crewneck Sweater",
+    "description": "Soft pure cashmere sweater in a relaxed, everyday fit.",
+    "image": "https://picsum.photos/seed/pmd-cashmere/640/480",
+    "price": 199.0,
+    "category": "Fashion",
+    "rating": 4.5
+  },
+  {
+    "id": "p-048",
+    "title": "Resistance Band Set (5-pack)",
+    "description": "Five stackable bands from 10 to 50 lbs with handles and ankle straps.",
+    "image": "https://picsum.photos/seed/pmd-bands/640/480",
+    "price": 19.99,
+    "category": "Sports",
+    "rating": 4.5
+  },
+  {
+    "id": "p-013",
+    "title": "Bedside LED Lamp",
+    "description": "Dimmable LED lamp with warm and cool color temperatures.",
+    "image": "https://picsum.photos/seed/pmd-lamp/640/480",
+    "price": 45.0,
+    "category": "Home",
+    "rating": 4.2
+  },
+  {
+    "id": "p-003",
+    "title": "Fitness Smartwatch",
+    "description": "Tracks steps, heart rate, sleep, and 20+ workout modes.",
+    "image": "https://picsum.photos/seed/pmd-smartwatch/640/480",
+    "price": 189.5,
+    "category": "Electronics",
+    "rating": 4.3
+  },
+  {
+    "id": "p-043",
+    "title": "Mindful Eating Guide",
+    "description": "A practical guide to building a calmer relationship with food.",
+    "image": "https://picsum.photos/seed/pmd-mindful/640/480",
+    "price": 18.5,
+    "category": "Books",
+    "rating": 4.3
+  },
+  {
+    "id": "p-030",
+    "title": "Insulated Water Bottle 750ml",
+    "description": "Double-walled stainless steel bottle, keeps cold 24h / hot 12h.",
+    "image": "https://picsum.photos/seed/pmd-bottle/640/480",
+    "price": 28.0,
+    "category": "Sports",
+    "rating": 4.7
+  },
+  {
+    "id": "p-011",
+    "title": "Minimalist Analog Watch",
+    "description": "Stainless steel case with a genuine leather strap.",
+    "image": "https://picsum.photos/seed/pmd-watch/640/480",
+    "price": 149.0,
+    "category": "Fashion",
+    "rating": 4.3
+  },
+  {
+    "id": "p-039",
+    "title": "Cast Iron Skillet",
+    "description": "Pre-seasoned 10-inch cast iron skillet for stovetop or oven.",
+    "image": "https://picsum.photos/seed/pmd-skillet/640/480",
+    "price": 54.99,
+    "category": "Home",
+    "rating": 4.7
+  },
+  {
+    "id": "p-027",
+    "title": "Road Running Shoes",
+    "description": "Lightweight running shoes with responsive foam cushioning.",
+    "image": "https://picsum.photos/seed/pmd-running/640/480",
+    "price": 130.0,
+    "category": "Sports",
+    "rating": 4.4
+  },
+  {
+    "id": "p-006",
+    "title": "Smartphone Pro 256GB",
+    "description": "Flagship smartphone with triple camera system and OLED display.",
+    "image": "https://picsum.photos/seed/pmd-phone/640/480",
+    "price": 999.0,
+    "category": "Electronics",
+    "rating": 4.5
+  },
+  {
+    "id": "p-024",
+    "title": "Moonrise Stories (Children's)",
+    "description": "Ten bedtime stories beautifully illustrated for ages 3-7.",
+    "image": "https://picsum.photos/seed/pmd-children/640/480",
+    "price": 17.5,
+    "category": "Books",
+    "rating": 4.8
+  },
+  {
+    "id": "p-018",
+    "title": "Ergonomic Office Chair",
+    "description": "Mesh-back office chair with adjustable lumbar support.",
+    "image": "https://picsum.photos/seed/pmd-chair/640/480",
+    "price": 349.0,
+    "category": "Home",
+    "rating": 4.5
+  },
+  {
+    "id": "p-050",
+    "title": "35L Trail Hiking Backpack",
+    "description": "Weekender hiking pack with hip belt, rain cover, and hydration sleeve.",
+    "image": "https://picsum.photos/seed/pmd-hiking/640/480",
+    "price": 89.0,
+    "category": "Sports",
+    "rating": 4.6
+  },
+  {
+    "id": "p-035",
+    "title": "Leather Crossbody Bag",
+    "description": "Full-grain leather crossbody with an adjustable webbing strap.",
+    "image": "https://picsum.photos/seed/pmd-crossbody/640/480",
+    "price": 139.0,
+    "category": "Fashion",
+    "rating": 4.4
+  },
+  {
+    "id": "p-020",
+    "title": "Everyday Cookbook",
+    "description": "120 weeknight recipes you can put together in under 40 minutes.",
+    "image": "https://picsum.photos/seed/pmd-cookbook/640/480",
+    "price": 24.5,
+    "category": "Books",
+    "rating": 4.6
+  },
+  {
+    "id": "p-033",
+    "title": "Wireless Charging Pad",
+    "description": "15W Qi-certified charging pad with overheat protection.",
+    "image": "https://picsum.photos/seed/pmd-charging/640/480",
+    "price": 34.99,
+    "category": "Electronics",
+    "rating": 4.1
+  },
+  {
+    "id": "p-029",
+    "title": "MIPS Bike Helmet",
+    "description": "Road helmet with MIPS protection and adjustable fit system.",
+    "image": "https://picsum.photos/seed/pmd-helmet/640/480",
+    "price": 89.0,
+    "category": "Sports",
+    "rating": 4.5
+  },
+  {
+    "id": "p-012",
+    "title": "Merino Wool Scarf",
+    "description": "Soft merino wool scarf in a classic herringbone weave.",
+    "image": "https://picsum.photos/seed/pmd-scarf/640/480",
+    "price": 39.0,
+    "category": "Fashion",
+    "rating": 4.0
+  },
+  {
+    "id": "p-002",
+    "title": "14\" Ultrabook Laptop",
+    "description": "Lightweight aluminum laptop with a crisp display and all-day battery.",
+    "image": "https://picsum.photos/seed/pmd-laptop/640/480",
+    "price": 1299.0,
+    "category": "Electronics",
+    "rating": 4.7
+  },
+  {
+    "id": "p-041",
+    "title": "Velvet Throw Pillow",
+    "description": "Plush velvet throw pillow with a hidden zipper and cotton insert.",
+    "image": "https://picsum.photos/seed/pmd-pillow/640/480",
+    "price": 32.0,
+    "category": "Home",
+    "rating": 4.1
+  },
+  {
+    "id": "p-008",
+    "title": "Low-Top Leather Sneakers",
+    "description": "Minimalist white leather sneakers with cushioned insoles.",
+    "image": "https://picsum.photos/seed/pmd-sneakers/640/480",
+    "price": 120.0,
+    "category": "Fashion",
+    "rating": 4.5
+  },
+  {
+    "id": "p-045",
+    "title": "The Startup Playbook",
+    "description": "Case studies and frameworks for taking an early-stage company to scale.",
+    "image": "https://picsum.photos/seed/pmd-startup/640/480",
+    "price": 26.0,
+    "category": "Books",
+    "rating": 4.5
+  },
+  {
+    "id": "p-014",
+    "title": "High-Speed Blender",
+    "description": "1000W blender with six preset programs and a 2L jar.",
+    "image": "https://picsum.photos/seed/pmd-blender/640/480",
+    "price": 129.99,
+    "category": "Home",
+    "rating": 4.5
+  },
+  {
+    "id": "p-023",
+    "title": "Small Songs (Poetry)",
+    "description": "A debut poetry collection on distance, home, and small joys.",
+    "image": "https://picsum.photos/seed/pmd-poetry/640/480",
+    "price": 12.0,
+    "category": "Books",
+    "rating": 4.2
+  },
+  {
+    "id": "p-037",
+    "title": "Chelsea Leather Boots",
+    "description": "Ankle-height Chelsea boots with elasticated sides and a stacked heel.",
+    "image": "https://picsum.photos/seed/pmd-boots/640/480",
+    "price": 179.0,
+    "category": "Fashion",
+    "rating": 4.6
+  },
+  {
+    "id": "p-016",
+    "title": "Robot Vacuum Cleaner",
+    "description": "App-controlled robot vacuum with mapping and auto-recharge.",
+    "image": "https://picsum.photos/seed/pmd-vacuum/640/480",
+    "price": 299.0,
+    "category": "Home",
+    "rating": 4.3
+  },
+  {
+    "id": "p-026",
+    "title": "Adjustable Dumbbell Set",
+    "description": "Pair of adjustable dumbbells, 5-50 lbs each.",
+    "image": "https://picsum.photos/seed/pmd-dumbbells/640/480",
+    "price": 279.0,
+    "category": "Sports",
+    "rating": 4.6
+  },
+  {
+    "id": "p-004",
+    "title": "Mirrorless Digital Camera",
+    "description": "24MP mirrorless camera body with fast autofocus and 4K video.",
+    "image": "https://picsum.photos/seed/pmd-camera/640/480",
+    "price": 899.99,
+    "category": "Electronics",
+    "rating": 4.8
+  },
+  {
+    "id": "p-047",
+    "title": "High-Density Foam Roller",
+    "description": "36-inch foam roller for deep-tissue self-massage and recovery.",
+    "image": "https://picsum.photos/seed/pmd-foamroller/640/480",
+    "price": 24.99,
+    "category": "Sports",
+    "rating": 4.4
+  },
+  {
+    "id": "p-021",
+    "title": "A Life in Numbers (Biography)",
+    "description": "The biography of a pioneering mathematician in the 20th century.",
+    "image": "https://picsum.photos/seed/pmd-biography/640/480",
+    "price": 19.0,
+    "category": "Books",
+    "rating": 4.4
+  },
+  {
+    "id": "p-009",
+    "title": "Everyday Canvas Backpack",
+    "description": "Water-resistant backpack with padded laptop sleeve and laptop pocket.",
+    "image": "https://picsum.photos/seed/pmd-backpack/640/480",
+    "price": 65.0,
+    "category": "Fashion",
+    "rating": 4.4
+  },
+  {
+    "id": "p-031",
+    "title": "27\" 4K Ultra HD Monitor",
+    "description": "IPS panel with HDR support, USB-C power delivery, and a height-adjustable stand.",
+    "image": "https://picsum.photos/seed/pmd-monitor/640/480",
+    "price": 329.0,
+    "category": "Electronics",
+    "rating": 4.4
+  },
+  {
+    "id": "p-010",
+    "title": "Polarized Aviator Sunglasses",
+    "description": "UV400 polarized lenses with a lightweight metal frame.",
+    "image": "https://picsum.photos/seed/pmd-sunglasses/640/480",
+    "price": 49.99,
+    "category": "Fashion",
+    "rating": 4.1
+  },
+  {
+    "id": "p-049",
+    "title": "Climbing Chalk Bag",
+    "description": "Durable chalk bag with a fleece lining and brush holder.",
+    "image": "https://picsum.photos/seed/pmd-chalk/640/480",
+    "price": 22.0,
+    "category": "Sports",
+    "rating": 4.2
+  },
+  {
+    "id": "p-040",
+    "title": "Scented Soy Candle Set",
+    "description": "Set of three hand-poured soy candles in bergamot, cedar, and fig.",
+    "image": "https://picsum.photos/seed/pmd-candle/640/480",
+    "price": 38.0,
+    "category": "Home",
+    "rating": 4.3
+  },
+  {
+    "id": "p-051",
+    "title": "Wireless Earbuds Pro",
+    "description": "True wireless earbuds with hybrid ANC and a 28-hour charging case.",
+    "image": "https://picsum.photos/seed/pmd-earbuds/640/480",
+    "price": 179.0,
+    "category": "Electronics",
+    "rating": 4.5
+  },
+  {
+    "id": "p-111",
+    "title": "Morning Light (Memoir)",
+    "description": "A reflective memoir about childhood on a coastal fishing town.",
+    "image": "https://picsum.photos/seed/pmd-morninglight/640/480",
+    "price": 18.99,
+    "category": "Books",
+    "rating": 4.4
+  },
+  {
+    "id": "p-091",
+    "title": "Memory Foam Mattress (Queen)",
+    "description": "10-inch medium-firm memory foam mattress with cooling gel layer.",
+    "image": "https://picsum.photos/seed/pmd-mattress/640/480",
+    "price": 699.0,
+    "category": "Home",
+    "rating": 4.5
+  },
+  {
+    "id": "p-131",
+    "title": "Golf Driver 10.5°",
+    "description": "Adjustable-loft titanium driver with a forgiving sweet spot.",
+    "image": "https://picsum.photos/seed/pmd-golf/640/480",
+    "price": 449.0,
+    "category": "Sports",
+    "rating": 4.5
+  },
+  {
+    "id": "p-071",
+    "title": "Quilted Puffer Jacket",
+    "description": "Water-resistant puffer with synthetic down fill and rib-knit cuffs.",
+    "image": "https://picsum.photos/seed/pmd-puffer/640/480",
+    "price": 149.0,
+    "category": "Fashion",
+    "rating": 4.4
+  },
+  {
+    "id": "p-052",
+    "title": "4K Action Camera",
+    "description": "Waterproof action camera with electronic stabilization and 120fps slow-mo.",
+    "image": "https://picsum.photos/seed/pmd-actioncam/640/480",
+    "price": 299.0,
+    "category": "Electronics",
+    "rating": 4.6
+  },
+  {
+    "id": "p-112",
+    "title": "Atlas of the Deep Sea",
+    "description": "A hardcover atlas of trenches, ridges, and species of the abyss.",
+    "image": "https://picsum.photos/seed/pmd-deepsea/640/480",
+    "price": 45.0,
+    "category": "Books",
+    "rating": 4.7
+  },
+  {
+    "id": "p-092",
+    "title": "Standing Desk Converter",
+    "description": "Height-adjustable riser turning any desk into a sit-stand workstation.",
+    "image": "https://picsum.photos/seed/pmd-deskconverter/640/480",
+    "price": 199.0,
+    "category": "Home",
+    "rating": 4.3
+  },
+  {
+    "id": "p-132",
+    "title": "Pickleball Paddle",
+    "description": "Graphite-face paddle with a polymer core and cushioned grip.",
+    "image": "https://picsum.photos/seed/pmd-pickleball/640/480",
+    "price": 89.0,
+    "category": "Sports",
+    "rating": 4.6
+  },
+  {
+    "id": "p-072",
+    "title": "Slim Fit Chinos",
+    "description": "Stretch cotton chinos with a slight taper and hidden coin pocket.",
+    "image": "https://picsum.photos/seed/pmd-chinos/640/480",
+    "price": 69.0,
+    "category": "Fashion",
+    "rating": 4.2
+  },
+  {
+    "id": "p-053",
+    "title": "USB-C Hub 7-in-1",
+    "description": "Aluminum hub with HDMI, 3x USB 3.0, SD, microSD, and 100W PD.",
+    "image": "https://picsum.photos/seed/pmd-hub/640/480",
+    "price": 49.99,
+    "category": "Electronics",
+    "rating": 4.3
+  },
+  {
+    "id": "p-113",
+    "title": "The Listener (Thriller)",
+    "description": "A psychologist is drawn into a case that mirrors her own buried past.",
+    "image": "https://picsum.photos/seed/pmd-listener/640/480",
+    "price": 16.0,
+    "category": "Books",
+    "rating": 4.3
+  },
+  {
+    "id": "p-093",
+    "title": "French Press Coffee Maker",
+    "description": "34oz glass French press with double-filter stainless steel plunger.",
+    "image": "https://picsum.photos/seed/pmd-frenchpress/640/480",
+    "price": 39.0,
+    "category": "Home",
+    "rating": 4.4
+  },
+  {
+    "id": "p-133",
+    "title": "Ski Goggles",
+    "description": "Anti-fog cylindrical goggles with an interchangeable low-light lens.",
+    "image": "https://picsum.photos/seed/pmd-skigoggles/640/480",
+    "price": 129.0,
+    "category": "Sports",
+    "rating": 4.4
+  },
+  {
+    "id": "p-073",
+    "title": "Linen Button-Up Shirt",
+    "description": "Breathable linen shirt with coconut buttons and a relaxed collar.",
+    "image": "https://picsum.photos/seed/pmd-linenshirt/640/480",
+    "price": 59.0,
+    "category": "Fashion",
+    "rating": 4.3
+  },
+  {
+    "id": "p-054",
+    "title": "Wireless Gaming Mouse",
+    "description": "Ultra-lightweight gaming mouse with 26K DPI optical sensor.",
+    "image": "https://picsum.photos/seed/pmd-gamingmouse/640/480",
+    "price": 89.0,
+    "category": "Electronics",
+    "rating": 4.5
+  },
+  {
+    "id": "p-114",
+    "title": "Python Fluency",
+    "description": "Idiomatic patterns and performance tips for experienced Python developers.",
+    "image": "https://picsum.photos/seed/pmd-python/640/480",
+    "price": 39.0,
+    "category": "Books",
+    "rating": 4.6
+  },
+  {
+    "id": "p-094",
+    "title": "Cotton Sheet Set",
+    "description": "400-thread-count long-staple cotton sheet set with deep-pocket fitted sheet.",
+    "image": "https://picsum.photos/seed/pmd-sheets/640/480",
+    "price": 99.0,
+    "category": "Home",
+    "rating": 4.5
+  },
+  {
+    "id": "p-134",
+    "title": "Mountain Bike 29\"",
+    "description": "Hardtail aluminum mountain bike with 12-speed drivetrain and hydraulic discs.",
+    "image": "https://picsum.photos/seed/pmd-mtb/640/480",
+    "price": 899.0,
+    "category": "Sports",
+    "rating": 4.5
+  },
+  {
+    "id": "p-074",
+    "title": "Wool Overcoat",
+    "description": "Double-breasted wool overcoat with a notched lapel and silk lining.",
+    "image": "https://picsum.photos/seed/pmd-overcoat/640/480",
+    "price": 299.0,
+    "category": "Fashion",
+    "rating": 4.5
+  },
+  {
+    "id": "p-055",
+    "title": "27\" Curved Gaming Monitor",
+    "description": "1440p 165Hz VA panel with 1ms response and HDR support.",
+    "image": "https://picsum.photos/seed/pmd-gamingmonitor/640/480",
+    "price": 449.0,
+    "category": "Electronics",
+    "rating": 4.4
+  },
+  {
+    "id": "p-115",
+    "title": "Letters from the Garden",
+    "description": "A year of nature writing from a small walled garden.",
+    "image": "https://picsum.photos/seed/pmd-garden/640/480",
+    "price": 14.5,
+    "category": "Books",
+    "rating": 4.3
+  },
+  {
+    "id": "p-095",
+    "title": "Smart Ceiling Fan",
+    "description": "52-inch DC motor fan with app control and an integrated LED light.",
+    "image": "https://picsum.photos/seed/pmd-ceilingfan/640/480",
+    "price": 249.0,
+    "category": "Home",
+    "rating": 4.2
+  },
+  {
+    "id": "p-135",
+    "title": "Climbing Harness",
+    "description": "Adjustable harness with four gear loops and a belay buckle.",
+    "image": "https://picsum.photos/seed/pmd-harness/640/480",
+    "price": 79.0,
+    "category": "Sports",
+    "rating": 4.5
+  },
+  {
+    "id": "p-075",
+    "title": "Silk Scrunchie Set",
+    "description": "Pack of six pure mulberry silk scrunchies in coordinated tones.",
+    "image": "https://picsum.photos/seed/pmd-scrunchies/640/480",
+    "price": 14.99,
+    "category": "Fashion",
+    "rating": 4.4
+  },
+  {
+    "id": "p-056",
+    "title": "Smart LED TV 55\"",
+    "description": "4K UHD smart TV with HDR10+ and a built-in voice assistant.",
+    "image": "https://picsum.photos/seed/pmd-tv/640/480",
+    "price": 599.0,
+    "category": "Electronics",
+    "rating": 4.3
+  },
+  {
+    "id": "p-116",
+    "title": "The Red Door (Thriller)",
+    "description": "A locked-room thriller set during a blizzard at a remote inn.",
+    "image": "https://picsum.photos/seed/pmd-reddoor/640/480",
+    "price": 15.5,
+    "category": "Books",
+    "rating": 4.2
+  },
+  {
+    "id": "p-096",
+    "title": "Cordless Stick Vacuum",
+    "description": "Lightweight stick vacuum with a 60-minute runtime and HEPA filter.",
+    "image": "https://picsum.photos/seed/pmd-stickvac/640/480",
+    "price": 379.0,
+    "category": "Home",
+    "rating": 4.5
+  },
+  {
+    "id": "p-136",
+    "title": "Neoprene Wetsuit",
+    "description": "3mm full wetsuit with flatlock seams and a glideskin neck.",
+    "image": "https://picsum.photos/seed/pmd-wetsuit/640/480",
+    "price": 199.0,
+    "category": "Sports",
+    "rating": 4.3
+  },
+  {
+    "id": "p-076",
+    "title": "Canvas Tote Bag",
+    "description": "Heavyweight canvas tote with reinforced handles and an interior pocket.",
+    "image": "https://picsum.photos/seed/pmd-tote/640/480",
+    "price": 29.0,
+    "category": "Fashion",
+    "rating": 4.3
+  },
+  {
+    "id": "p-057",
+    "title": "4K Quadcopter Drone",
+    "description": "Foldable drone with 4K camera, 31-minute flight time, and obstacle sensing.",
+    "image": "https://picsum.photos/seed/pmd-drone/640/480",
+    "price": 799.0,
+    "category": "Electronics",
+    "rating": 4.6
+  },
+  {
+    "id": "p-117",
+    "title": "Everyday Mindfulness",
+    "description": "Practical micro-practices for attention and presence in daily life.",
+    "image": "https://picsum.photos/seed/pmd-everyday/640/480",
+    "price": 19.0,
+    "category": "Books",
+    "rating": 4.4
+  },
+  {
+    "id": "p-097",
+    "title": "Ceramic Dinner Set (16-piece)",
+    "description": "Service for four in a matte-glaze stoneware, dishwasher safe.",
+    "image": "https://picsum.photos/seed/pmd-dinnerset/640/480",
+    "price": 129.0,
+    "category": "Home",
+    "rating": 4.4
+  },
+  {
+    "id": "p-137",
+    "title": "Weighted Jump Rope",
+    "description": "Adjustable PVC rope with interchangeable weighted handles.",
+    "image": "https://picsum.photos/seed/pmd-jumprope/640/480",
+    "price": 29.99,
+    "category": "Sports",
+    "rating": 4.2
+  },
+  {
+    "id": "p-077",
+    "title": "Knit Beanie",
+    "description": "Ribbed beanie in a soft acrylic blend, one size fits most.",
+    "image": "https://picsum.photos/seed/pmd-beanie/640/480",
+    "price": 24.0,
+    "category": "Fashion",
+    "rating": 4.1
+  },
+  {
+    "id": "p-058",
+    "title": "Portable SSD 1TB",
+    "description": "USB 3.2 Gen 2 external SSD with up to 1050 MB/s transfer speed.",
+    "image": "https://picsum.photos/seed/pmd-ssd/640/480",
+    "price": 129.99,
+    "category": "Electronics",
+    "rating": 4.7
+  },
+  {
+    "id": "p-118",
+    "title": "A History of Silence",
+    "description": "An essayistic journey through the role of silence in art and ritual.",
+    "image": "https://picsum.photos/seed/pmd-silence/640/480",
+    "price": 22.5,
+    "category": "Books",
+    "rating": 4.3
+  },
+  {
+    "id": "p-098",
+    "title": "Glass Food Storage Containers",
+    "description": "Set of 10 borosilicate glass containers with airtight bamboo lids.",
+    "image": "https://picsum.photos/seed/pmd-storage/640/480",
+    "price": 49.0,
+    "category": "Home",
+    "rating": 4.5
+  },
+  {
+    "id": "p-138",
+    "title": "Training Gloves",
+    "description": "Padded weightlifting gloves with wrist wraps and breathable mesh.",
+    "image": "https://picsum.photos/seed/pmd-gloves/640/480",
+    "price": 34.0,
+    "category": "Sports",
+    "rating": 4.2
+  },
+  {
+    "id": "p-078",
+    "title": "Full-Grain Leather Belt",
+    "description": "Italian full-grain leather belt with a brushed nickel buckle.",
+    "image": "https://picsum.photos/seed/pmd-belt/640/480",
+    "price": 45.0,
+    "category": "Fashion",
+    "rating": 4.4
+  },
+  {
+    "id": "p-059",
+    "title": "Smart Video Doorbell",
+    "description": "2K video doorbell with night vision, two-way audio, and local storage.",
+    "image": "https://picsum.photos/seed/pmd-doorbell/640/480",
+    "price": 159.0,
+    "category": "Electronics",
+    "rating": 4.3
+  },
+  {
+    "id": "p-119",
+    "title": "Tides (Poetry)",
+    "description": "A spare, water-haunted collection exploring grief and renewal.",
+    "image": "https://picsum.photos/seed/pmd-tides/640/480",
+    "price": 13.0,
+    "category": "Books",
+    "rating": 4.5
+  },
+  {
+    "id": "p-099",
+    "title": "Weighted Blanket 15lb",
+    "description": "Queen-size weighted blanket with glass beads and a removable cover.",
+    "image": "https://picsum.photos/seed/pmd-weighted/640/480",
+    "price": 89.0,
+    "category": "Home",
+    "rating": 4.4
+  },
+  {
+    "id": "p-139",
+    "title": "Compression Calf Sleeves",
+    "description": "Graduated compression calf sleeves for running and recovery.",
+    "image": "https://picsum.photos/seed/pmd-calfsleeves/640/480",
+    "price": 24.0,
+    "category": "Sports",
+    "rating": 4.0
+  },
+  {
+    "id": "p-079",
+    "title": "Organic Cotton Graphic Tee",
+    "description": "Midweight organic cotton tee with a small chest-pocket print.",
+    "image": "https://picsum.photos/seed/pmd-tshirt/640/480",
+    "price": 28.0,
+    "category": "Fashion",
+    "rating": 4.2
+  },
+  {
+    "id": "p-060",
+    "title": "Bluetooth Turntable",
+    "description": "Belt-drive turntable with built-in phono preamp and Bluetooth output.",
+    "image": "https://picsum.photos/seed/pmd-turntable/640/480",
+    "price": 249.0,
+    "category": "Electronics",
+    "rating": 4.4
+  },
+  {
+    "id": "p-120",
+    "title": "Cooking with Ease",
+    "description": "A 200-recipe cookbook organized by pantry staples and seasons.",
+    "image": "https://picsum.photos/seed/pmd-ease/640/480",
+    "price": 27.0,
+    "category": "Books",
+    "rating": 4.5
+  },
+  {
+    "id": "p-100",
+    "title": "Bamboo Cutting Board",
+    "description": "Large bamboo cutting board with juice groove and built-in handles.",
+    "image": "https://picsum.photos/seed/pmd-bamboo/640/480",
+    "price": 34.0,
+    "category": "Home",
+    "rating": 4.3
+  },
+  {
+    "id": "p-140",
+    "title": "Basketball (Official Size)",
+    "description": "Composite-leather indoor/outdoor basketball, size 7.",
+    "image": "https://picsum.photos/seed/pmd-basketball/640/480",
+    "price": 49.0,
+    "category": "Sports",
+    "rating": 4.5
+  },
+  {
+    "id": "p-080",
+    "title": "Performance Joggers",
+    "description": "Four-way stretch joggers with zipped side pockets and a tapered leg.",
+    "image": "https://picsum.photos/seed/pmd-joggers/640/480",
+    "price": 69.0,
+    "category": "Fashion",
+    "rating": 4.3
+  },
+  {
+    "id": "p-061",
+    "title": "11\" Tablet",
+    "description": "11-inch OLED tablet with a 120Hz display and all-day battery.",
+    "image": "https://picsum.photos/seed/pmd-tablet/640/480",
+    "price": 549.0,
+    "category": "Electronics",
+    "rating": 4.5
+  },
+  {
+    "id": "p-121",
+    "title": "The Mapmaker's Daughter",
+    "description": "A sweeping historical novel set across three cartographic generations.",
+    "image": "https://picsum.photos/seed/pmd-mapmaker/640/480",
+    "price": 16.99,
+    "category": "Books",
+    "rating": 4.6
+  },
+  {
+    "id": "p-101",
+    "title": "Blackout Curtains",
+    "description": "Thermal-insulated blackout curtains with grommet top, set of two.",
+    "image": "https://picsum.photos/seed/pmd-curtains/640/480",
+    "price": 79.0,
+    "category": "Home",
+    "rating": 4.2
+  },
+  {
+    "id": "p-141",
+    "title": "Smart Jump Mat",
+    "description": "Bluetooth jump mat that tracks reps, contact time, and power output.",
+    "image": "https://picsum.photos/seed/pmd-jumpmat/640/480",
+    "price": 199.0,
+    "category": "Sports",
+    "rating": 4.1
+  },
+  {
+    "id": "p-081",
+    "title": "Vintage-Wash Jeans",
+    "description": "Straight-leg selvedge jeans with a faded indigo wash and natural whiskering.",
+    "image": "https://picsum.photos/seed/pmd-jeans/640/480",
+    "price": 89.0,
+    "category": "Fashion",
+    "rating": 4.4
+  },
+  {
+    "id": "p-062",
+    "title": "Wireless Keyboard & Mouse Combo",
+    "description": "Compact wireless combo with a unifying dongle and two-year battery.",
+    "image": "https://picsum.photos/seed/pmd-combo/640/480",
+    "price": 59.99,
+    "category": "Electronics",
+    "rating": 4.2
+  },
+  {
+    "id": "p-122",
+    "title": "Design Principles",
+    "description": "A concise field guide to visual hierarchy, rhythm, and contrast.",
+    "image": "https://picsum.photos/seed/pmd-design/640/480",
+    "price": 35.0,
+    "category": "Books",
+    "rating": 4.7
+  },
+  {
+    "id": "p-102",
+    "title": "Aromatherapy Diffuser",
+    "description": "300ml ultrasonic diffuser with seven ambient light modes.",
+    "image": "https://picsum.photos/seed/pmd-diffuser/640/480",
+    "price": 39.0,
+    "category": "Home",
+    "rating": 4.3
+  },
+  {
+    "id": "p-142",
+    "title": "Anti-Fog Swim Goggles",
+    "description": "Silicone swim goggles with anti-fog coating and a wide field of view.",
+    "image": "https://picsum.photos/seed/pmd-swim/640/480",
+    "price": 22.0,
+    "category": "Sports",
+    "rating": 4.3
+  },
+  {
+    "id": "p-082",
+    "title": "Rain Trench Coat",
+    "description": "Water-repellent trench with a removable hood and belted waist.",
+    "image": "https://picsum.photos/seed/pmd-trench/640/480",
+    "price": 199.0,
+    "category": "Fashion",
+    "rating": 4.4
+  },
+  {
+    "id": "p-063",
+    "title": "Over-Ear DJ Headphones",
+    "description": "Swiveling-cup DJ headphones with a detachable coiled cable.",
+    "image": "https://picsum.photos/seed/pmd-dj/640/480",
+    "price": 299.0,
+    "category": "Electronics",
+    "rating": 4.5
+  },
+  {
+    "id": "p-123",
+    "title": "Children of the Harbor",
+    "description": "A tender novel following three siblings across a fishing village's decline.",
+    "image": "https://picsum.photos/seed/pmd-harbor/640/480",
+    "price": 18.0,
+    "category": "Books",
+    "rating": 4.5
+  },
+  {
+    "id": "p-103",
+    "title": "Smart Lock Keypad",
+    "description": "Keyless smart lock with app-share access codes and Wi-Fi bridge.",
+    "image": "https://picsum.photos/seed/pmd-smartlock/640/480",
+    "price": 229.0,
+    "category": "Home",
+    "rating": 4.4
+  },
+  {
+    "id": "p-143",
+    "title": "Kettlebell 20kg",
+    "description": "Cast-iron kettlebell with a powder-coat finish and flat base.",
+    "image": "https://picsum.photos/seed/pmd-kettlebell/640/480",
+    "price": 79.0,
+    "category": "Sports",
+    "rating": 4.6
+  },
+  {
+    "id": "p-083",
+    "title": "Suede Loafers",
+    "description": "Hand-stitched suede loafers with a leather sole and cushioned footbed.",
+    "image": "https://picsum.photos/seed/pmd-loafers/640/480",
+    "price": 149.0,
+    "category": "Fashion",
+    "rating": 4.3
+  },
+  {
+    "id": "p-064",
+    "title": "VR Headset",
+    "description": "Standalone VR headset with 4K-per-eye resolution and hand tracking.",
+    "image": "https://picsum.photos/seed/pmd-vr/640/480",
+    "price": 499.0,
+    "category": "Electronics",
+    "rating": 4.5
+  },
+  {
+    "id": "p-124",
+    "title": "A Fieldguide to Fungi",
+    "description": "Illustrated guide to 200 common fungi, with habitat and seasonality notes.",
+    "image": "https://picsum.photos/seed/pmd-fungi/640/480",
+    "price": 29.0,
+    "category": "Books",
+    "rating": 4.6
+  },
+  {
+    "id": "p-104",
+    "title": "Non-Stick Cookware Set (10-piece)",
+    "description": "Ceramic-nonstick cookware with stainless handles, oven safe to 450°F.",
+    "image": "https://picsum.photos/seed/pmd-cookware/640/480",
+    "price": 199.0,
+    "category": "Home",
+    "rating": 4.3
+  },
+  {
+    "id": "p-144",
+    "title": "Board Shorts",
+    "description": "Quick-dry recycled-polyester board shorts with a concealed pocket.",
+    "image": "https://picsum.photos/seed/pmd-boardshorts/640/480",
+    "price": 45.0,
+    "category": "Sports",
+    "rating": 4.2
+  },
+  {
+    "id": "p-084",
+    "title": "Wool Fedora",
+    "description": "Crushable wool-felt fedora with a grosgrain band.",
+    "image": "https://picsum.photos/seed/pmd-fedora/640/480",
+    "price": 65.0,
+    "category": "Fashion",
+    "rating": 4.1
+  },
+  {
+    "id": "p-065",
+    "title": "Smart Thermostat",
+    "description": "Learning thermostat with geofencing and energy-use reports.",
+    "image": "https://picsum.photos/seed/pmd-thermostat/640/480",
+    "price": 199.0,
+    "category": "Electronics",
+    "rating": 4.4
+  },
+  {
+    "id": "p-125",
+    "title": "Quiet Places (Travel)",
+    "description": "An illustrated guide to lesser-known wilderness retreats around the world.",
+    "image": "https://picsum.photos/seed/pmd-quiet/640/480",
+    "price": 23.0,
+    "category": "Books",
+    "rating": 4.4
+  },
+  {
+    "id": "p-105",
+    "title": "Stand Mixer 5.5qt",
+    "description": "Tilt-head stand mixer with 10 speeds and a direct-drive motor.",
+    "image": "https://picsum.photos/seed/pmd-standmixer/640/480",
+    "price": 349.0,
+    "category": "Home",
+    "rating": 4.7
+  },
+  {
+    "id": "p-145",
+    "title": "Hanging Punching Bag 4ft",
+    "description": "Heavy-filled 4ft punching bag with reinforced chains and swivel.",
+    "image": "https://picsum.photos/seed/pmd-punchingbag/640/480",
+    "price": 159.0,
+    "category": "Sports",
+    "rating": 4.3
+  },
+  {
+    "id": "p-085",
+    "title": "Cotton Hoodie",
+    "description": "Heavyweight brushed-cotton hoodie with a double-lined hood.",
+    "image": "https://picsum.photos/seed/pmd-hoodie/640/480",
+    "price": 59.0,
+    "category": "Fashion",
+    "rating": 4.3
+  },
+  {
+    "id": "p-066",
+    "title": "Voice Assistant Speaker",
+    "description": "Compact smart speaker with room-filling sound and a built-in hub.",
+    "image": "https://picsum.photos/seed/pmd-voice/640/480",
+    "price": 99.0,
+    "category": "Electronics",
+    "rating": 4.2
+  },
+  {
+    "id": "p-126",
+    "title": "The Year We Paused (Essays)",
+    "description": "A collection of essays on slowing down in an accelerating world.",
+    "image": "https://picsum.photos/seed/pmd-paused/640/480",
+    "price": 21.0,
+    "category": "Books",
+    "rating": 4.3
+  },
+  {
+    "id": "p-106",
+    "title": "Teak Dining Chair",
+    "description": "Mid-century teak dining chair with a woven rope seat.",
+    "image": "https://picsum.photos/seed/pmd-teakchair/640/480",
+    "price": 249.0,
+    "category": "Home",
+    "rating": 4.4
+  },
+  {
+    "id": "p-146",
+    "title": "Aero Road Bike Helmet",
+    "description": "Lightweight aero helmet with MIPS, magnetic buckle, and 24 vents.",
+    "image": "https://picsum.photos/seed/pmd-aero/640/480",
+    "price": 179.0,
+    "category": "Sports",
+    "rating": 4.5
+  },
+  {
+    "id": "p-086",
+    "title": "Pleated Midi Skirt",
+    "description": "Lightweight pleated midi skirt with an elasticated waist.",
+    "image": "https://picsum.photos/seed/pmd-midi/640/480",
+    "price": 79.0,
+    "category": "Fashion",
+    "rating": 4.2
+  },
+  {
+    "id": "p-067",
+    "title": "Wi-Fi 6 Mesh Router",
+    "description": "Tri-band mesh router covering up to 5,500 sq ft, pack of two.",
+    "image": "https://picsum.photos/seed/pmd-mesh/640/480",
+    "price": 249.0,
+    "category": "Electronics",
+    "rating": 4.5
+  },
+  {
+    "id": "p-127",
+    "title": "Beginner's French",
+    "description": "Self-study workbook with grammar, dialogues, and downloadable audio.",
+    "image": "https://picsum.photos/seed/pmd-french/640/480",
+    "price": 24.99,
+    "category": "Books",
+    "rating": 4.2
+  },
+  {
+    "id": "p-107",
+    "title": "Velvet Swivel Armchair",
+    "description": "Modern swivel armchair in plush velvet with a matte gold base.",
+    "image": "https://picsum.photos/seed/pmd-armchair/640/480",
+    "price": 499.0,
+    "category": "Home",
+    "rating": 4.4
+  },
+  {
+    "id": "p-147",
+    "title": "Folding Treadmill",
+    "description": "Folding motorized treadmill with a 15% incline and cushioned deck.",
+    "image": "https://picsum.photos/seed/pmd-treadmill/640/480",
+    "price": 699.0,
+    "category": "Sports",
+    "rating": 4.2
+  },
+  {
+    "id": "p-087",
+    "title": "Oversized Blazer",
+    "description": "Relaxed-fit blazer with a padded shoulder and single-button closure.",
+    "image": "https://picsum.photos/seed/pmd-blazer/640/480",
+    "price": 159.0,
+    "category": "Fashion",
+    "rating": 4.3
+  },
+  {
+    "id": "p-068",
+    "title": "Portable Photo Printer",
+    "description": "Pocket photo printer producing 2x3 inch adhesive prints via Bluetooth.",
+    "image": "https://picsum.photos/seed/pmd-photoprinter/640/480",
+    "price": 129.0,
+    "category": "Electronics",
+    "rating": 4.0
+  },
+  {
+    "id": "p-128",
+    "title": "The Long Bridge (Historical)",
+    "description": "A historical novel tracking the building of an impossible bridge across the strait.",
+    "image": "https://picsum.photos/seed/pmd-longbridge/640/480",
+    "price": 17.5,
+    "category": "Books",
+    "rating": 4.4
+  },
+  {
+    "id": "p-108",
+    "title": "Arch Floor Mirror",
+    "description": "Full-length arch mirror with a thin black metal frame, 70 inches tall.",
+    "image": "https://picsum.photos/seed/pmd-archmirror/640/480",
+    "price": 189.0,
+    "category": "Home",
+    "rating": 4.5
+  },
+  {
+    "id": "p-148",
+    "title": "Yoga Block Set",
+    "description": "Pair of high-density EVA foam yoga blocks with a cotton strap.",
+    "image": "https://picsum.photos/seed/pmd-yogablock/640/480",
+    "price": 19.99,
+    "category": "Sports",
+    "rating": 4.4
+  },
+  {
+    "id": "p-088",
+    "title": "Silver Hoop Earrings",
+    "description": "Sterling-silver hoop earrings with a hinged post.",
+    "image": "https://picsum.photos/seed/pmd-hoops/640/480",
+    "price": 49.0,
+    "category": "Fashion",
+    "rating": 4.3
+  },
+  {
+    "id": "p-069",
+    "title": "2K Dashcam",
+    "description": "Front-and-rear 2K dashcam with GPS and parking-mode recording.",
+    "image": "https://picsum.photos/seed/pmd-dashcam/640/480",
+    "price": 109.0,
+    "category": "Electronics",
+    "rating": 4.1
+  },
+  {
+    "id": "p-129",
+    "title": "Why We Sleep",
+    "description": "A science-forward exploration of how sleep shapes memory and mood.",
+    "image": "https://picsum.photos/seed/pmd-sleep/640/480",
+    "price": 18.99,
+    "category": "Books",
+    "rating": 4.7
+  },
+  {
+    "id": "p-109",
+    "title": "King Quilted Bedspread",
+    "description": "Cotton-filled king bedspread with coordinating pillow shams.",
+    "image": "https://picsum.photos/seed/pmd-bedspread/640/480",
+    "price": 149.0,
+    "category": "Home",
+    "rating": 4.3
+  },
+  {
+    "id": "p-149",
+    "title": "Indoor Soccer Ball",
+    "description": "Size-5 indoor soccer ball with a felt surface and low-bounce bladder.",
+    "image": "https://picsum.photos/seed/pmd-soccer/640/480",
+    "price": 29.0,
+    "category": "Sports",
+    "rating": 4.1
+  },
+  {
+    "id": "p-089",
+    "title": "Silicone Sport Watch",
+    "description": "Water-resistant digital sport watch with a chronograph and alarm.",
+    "image": "https://picsum.photos/seed/pmd-sportwatch/640/480",
+    "price": 79.0,
+    "category": "Fashion",
+    "rating": 4.2
+  },
+  {
+    "id": "p-090",
+    "title": "Cashmere Beanie",
+    "description": "Soft pure-cashmere beanie in a classic ribbed knit that holds its shape all winter.",
+    "image": "https://picsum.photos/seed/pmd-beanie/640/480",
+    "price": 58.0,
+    "category": "Fashion",
+    "rating": 4.5
+  },
+  {
+    "id": "p-070",
+    "title": "Aluminum Laptop Stand",
+    "description": "Adjustable aluminum laptop stand with cable-management channel.",
+    "image": "https://picsum.photos/seed/pmd-laptopstand/640/480",
+    "price": 49.0,
+    "category": "Electronics",
+    "rating": 4.6
+  },
+  {
+    "id": "p-130",
+    "title": "Illustrated Astronomy",
+    "description": "A hardcover primer covering constellations, planets, and deep-sky objects.",
+    "image": "https://picsum.photos/seed/pmd-astro/640/480",
+    "price": 32.0,
+    "category": "Books",
+    "rating": 4.6
+  },
+  {
+    "id": "p-110",
+    "title": "Bath Towel Set (6-piece)",
+    "description": "Plush combed-cotton towel set including bath, hand, and washcloths.",
+    "image": "https://picsum.photos/seed/pmd-towels/640/480",
+    "price": 79.0,
+    "category": "Home",
+    "rating": 4.4
+  },
+  {
+    "id": "p-150",
+    "title": "Carbon Ski Poles",
+    "description": "Lightweight carbon ski poles with interchangeable powder baskets.",
+    "image": "https://picsum.photos/seed/pmd-skipoles/640/480",
+    "price": 99.0,
+    "category": "Sports",
+    "rating": 4.4
+  }
+]
